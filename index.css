@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    font-size: 18px;
+/*     cursor: none; */
+}
+
+html, body {margin: 0;}
+h1, h2, h3, h4, h5, h6, figure, p {margin: 0; color: #666666;}
+
+
+h2 {font-size: 25px;
+    font-family: 'Gaegu';}
+h3 {font-size: 17px;}
+p {
+    font-size: 13px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+}
+a {text-decoration: none;}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;}
+
+img {vertical-align: middle;}
+table {border-collapse: collapse;}
+
+a, b, i, strong, mark, em, code {
+    display: inline-block;}
+
+#a::-webkit-scrollbar {display: none;}
+
+
+
+
+
+/* ----------------------------------------------------- */
+
+
+
+
+/* ---------헤더 / 카테고리--------- */
+
+
+
+.header{
+    visibility: visible;
+    position: fixed;
+    width: 100%;
+    display: flex;
+
+}
+
+.hd {display: flex;
+    padding-top: 15px;}
+
+.hd img {width: 150px;}
+
+.category_cst {
+    visibility: visible;
+    justify-content: center;
+    display: flex;
+    margin-top: 35px;
+    }
+
+
+.category_cst > li {
+    justify-content: center;
+    height: center;
+    margin: 0 20px 0 20px;}
+
+.category_cst > li > a > p {font-size: 20px;}
+
+
+
+@media screen and  (max-width: 992px) {
+    .hd img {width: 120px;}
+    .category_cst > li {
+        margin: 0 8px 0 8px;}
+    .category_cst > li > a > p {font-size: 18px;}
+    }
+
+
+
+
+
+
+
+/* ---------하단--------- */
+
+.footer01 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    line-height: 120%;}
+
+.footer01 > p {
+    font-size: 12px;}
+
+
+
+@media screen and  (max-width: 992px) {
+    .footer01 > p {font-size: 11px; }
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------메인--------- */
+
+
+.main_01 {
+    text-align: center;
+    display: block;
+    overflow-x:hidden; 
+}
+
+.main_01 > img {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 80px;}
+
+
+@media screen and  (max-width: 992px) {
+    .main01 {line-height: 100%;}
+    .main_01 > img {
+        margin-bottom: 50px;
+        width: 140%;}
+}
+
+@media screen and  (max-width: 767px) {
+    .main_01 > img {
+        width: 180%;}
+    }
