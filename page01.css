@@ -282,6 +282,10 @@ a, b, i, strong, mark, em, code {
     background-color: #B27572;}
 
 .page01-4 > img {width: 100%;}
+.page01-4 > iframe {
+    margin-top: 150px;
+    width: 100%;
+    height:100vh;}
 
 
 
